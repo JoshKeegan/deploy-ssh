@@ -1,6 +1,6 @@
 # EOL has comment to prevent erroneous whitespace in variables
 IMAGE = deploy-ssh#
-VERSION = 1.0#
+VERSION = 1.1#
 DOCKER_HUB_USERNAME = joshkeegan#
 
 IMAGE_URL = $(DOCKER_HUB_USERNAME)/$(IMAGE)#

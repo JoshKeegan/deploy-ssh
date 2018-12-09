@@ -11,4 +11,4 @@ RUN mkdir -p ~/.ssh && \
 	chmod 600 ~/.ssh/id_rsa
 
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash" "-l", "-c"]
