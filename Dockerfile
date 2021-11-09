@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.14.2
 
 # Install software
 RUN apk add --no-cache openssh-client bash curl
